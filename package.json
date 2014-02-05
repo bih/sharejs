@@ -1,7 +1,7 @@
 {
   "name": "sharejs",
-  "version": "0.0.1",
-  "description": "Trigger a Buffer Share Popup from any Dialog",
+  "version": "0.0.2",
+  "description": "Trigger a Buffer Share popup from any dialog",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,9 @@
     "url": "git://github.com/bufferapp/sharejs.git"
   },
   "author": "Sunil Sadasivan",
+  "contributors": [
+    "Bilawal Hameed <bilawal@games.com> (http://bilaw.al)"
+  ],
   "license": "MIT-LICENSE",
   "bugs": {
     "url": "https://github.com/bufferapp/sharejs/issues"

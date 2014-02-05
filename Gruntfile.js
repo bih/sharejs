@@ -1,20 +1,18 @@
-module.exports=function(grunt){
-
-  //Projectconfiguration.
+module.exports = function(grunt)
+{
+  // Configuration.
   grunt.initConfig({
-    pkg:{
+    pkg: {
       name:'sharejs',
       version:'0.0.2'
     },
-    uglify:{
-      sharejs:{
-        files:{
-          'min/<%= pkg.version %>/share.min.js':[ 'js/share.js' ]
-        }
+    uglify: {
+      sharejs: {
+        files: { 'min/<%= pkg.version %>/share.min.js': [ 'js/share.js' ] }
       },
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.registerTask('default',['uglify']);
+  grunt.registerTask('default', ['uglify']);
 };
